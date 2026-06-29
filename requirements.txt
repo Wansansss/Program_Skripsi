@@ -1,0 +1,20 @@
+# Dependensi perangkat lunak untuk program klasifikasi berita clickbait.
+# Pustaka mamba-ssm dan causal-conv1d memerlukan kartu grafis NVIDIA (CUDA)
+# dan dipasang dengan opsi --no-build-isolation. Petunjuk pemasangan
+# selengkapnya tercantum pada berkas README.
+
+torch
+transformers
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+newspaper3k
+lxml_html_clean
+ninja
+packaging
+causal-conv1d>=1.2.0
+mamba-ssm
+flask
+pyngrok
